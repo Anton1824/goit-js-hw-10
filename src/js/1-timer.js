@@ -24,6 +24,10 @@ const options = {
         position: 'topRight',
         color: 'red',
       });
+    startBtn.disabled = true;
+    startBtn.classList.add('not-active');
+        startBtn.classList.remove('is-active');
+        return;
     }
     startBtn.disabled = false;
     startBtn.classList.remove('not-active');
