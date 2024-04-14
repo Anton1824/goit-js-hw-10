@@ -65,7 +65,8 @@ function onBtnClick() {
     const currentTime = Date.now();
     startBtn.disabled = true;
     startBtn.classList.remove('is-active');
-    startBtn.classList.add('not-active');
+      startBtn.classList.add('not-active');
+      input.disabled = true;
 
     const diff = userSelectedDate - currentTime;
 
